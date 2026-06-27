@@ -1,0 +1,35 @@
+# Environment files - never commit
+backend/.env
+ml/.env
+
+# Python
+ml/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+backend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Claude
+.claude
+
+# Vite
+*.localclaims.csv
+
+# CSV
+claims.csv
