@@ -46,6 +46,7 @@ psql corgi_claims -c "\copy claims FROM 'path/to/claims.csv' WITH (FORMAT csv, H
 ### Environment Variables
 Copy `backend/.env.example` to `backend/.env` and fill in your values:
 
+```
 PORT=3001
 DB_HOST=localhost
 DB_PORT=5432
@@ -53,6 +54,7 @@ DB_NAME=corgi_claims
 DB_USER=your_username
 DB_PASSWORD=your_password
 ANTHROPIC_API_KEY=your_api_key_here
+```
 
 ### Running The App
 
