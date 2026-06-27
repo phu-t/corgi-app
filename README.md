@@ -21,10 +21,14 @@ Each layer informs the final payout recommendation, always capped at the policy 
 - **LLM** — Anthropic Claude API
 
 ## Project Structure
+
+```
 corgi-project/
 ├── backend/        Node.js + Express API
 ├── frontend/       React TypeScript UI
 └── ml/             Python Flask ML service
+```
+
 ## Setup
 
 ### Prerequisites
